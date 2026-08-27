@@ -195,7 +195,10 @@ section{padding:72px 0}
   .nav-cta{margin:8px 0 0}
   .nav-toggle{display:block}
   .databar .container{grid-template-columns:repeat(2,1fr);gap:24px 12px}
-  .cards,.quad,.steps,.ability,.taxonomy,.grid-3,.trust,.about-grid,.foot-grid{grid-template-columns:1fr}
+  .cards{grid-template-columns:repeat(2,1fr);gap:14px}
+  .quad,.steps,.ability,.taxonomy,.grid-3,.trust,.about-grid,.foot-grid{grid-template-columns:1fr}
+  .card{padding:18px}
+  .card h3{font-size:17px}
   .hero h1{font-size:30px}
   .hero{padding:64px 0 72px}
   .case-card{grid-template-columns:1fr}
