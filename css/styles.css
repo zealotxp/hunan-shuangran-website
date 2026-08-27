@@ -39,8 +39,9 @@ section{padding:72px 0}
 .brand .logo{width:34px;height:34px;border-radius:9px;background:var(--grad);display:grid;place-items:center;color:#fff;font-weight:900;font-size:15px}
 .brand img.logo-img{height:48px;width:auto;display:block}
 .brand .brand-name{font-size:17px;font-weight:800;color:var(--ink);letter-spacing:.5px;white-space:nowrap}
+.brand .brand-text{display:flex;flex-direction:column;line-height:1.2;gap:2px}
 .site-footer .brand img.logo-img{height:34px;background:#fff;padding:5px;border-radius:8px}
-.brand small{font-weight:500;color:var(--muted);font-size:12px;display:block;margin-top:-2px}
+.brand small{font-weight:600;color:var(--muted);font-size:12px;display:block;margin-top:0;letter-spacing:1px}
 .nav-links{display:flex;align-items:center;gap:6px;list-style:none}
 .nav-links>li{position:relative}
 .nav-links a{display:block;padding:10px 14px;font-size:15px;color:var(--ink-2);font-weight:500;border-radius:8px;transition:.2s}
