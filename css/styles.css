@@ -37,6 +37,9 @@ section{padding:84px 0}
 .btn-ghost:hover{border-color:var(--blue);background:var(--bg-soft);transform:translateY(-2px)}
 .btn-light{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.42);backdrop-filter:blur(6px)}
 .btn-light:hover{background:rgba(255,255,255,.28);transform:translateY(-2px)}
+.btn-ic{width:19px;height:19px;object-fit:contain;filter:brightness(0) invert(1)}
+.btn-primary .btn-ic,.btn-ghost .btn-ic{filter:none}
+.btn-ghost .btn-ic{filter:none}
 
 /* ============ Header ============ */
 .site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.82);backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid var(--line);transition:.3s}
