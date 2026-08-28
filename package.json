@@ -5,5 +5,8 @@
   "description": "湖南双然信息技术有限公司官网 - HTML 多页响应式原型（AI应用 / 物联网 / APP / 小程序）",
   "scripts": {
     "serve": "python -m http.server 8765"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-sc": "^5.3.0"
   }
 }
