@@ -78,9 +78,9 @@ section{padding:84px 0;position:relative}
 .hero h1{font-size:48px;line-height:1.16;font-weight:800;margin-bottom:20px;letter-spacing:-.5px;animation:heroUp .8s var(--ease) both}
 .hero p.lead{font-size:18px;color:rgba(255,255,255,.85);max-width:560px;margin-bottom:32px;animation:heroUp .8s .12s var(--ease) both}
 .hero-btns{display:flex;gap:14px;flex-wrap:wrap;animation:heroUp .8s .22s var(--ease) both}
-.btn-ic{width:18px;height:18px;object-fit:contain;display:inline-block;vertical-align:-3px;margin-right:2px}
+.btn-ic{width:20px;height:20px;object-fit:cover;display:inline-block;vertical-align:-4px;margin-right:2px;border-radius:50%;background:#fff;box-shadow:0 1px 4px rgba(11,27,58,.2)}
 .btn .btn-ic{filter:none}
-.foot-grid a .btn-ic{width:15px;height:15px;filter:brightness(0) invert(1);opacity:.75}
+.foot-grid a .btn-ic{width:18px;height:18px;opacity:1}
 .hero-badges{display:flex;gap:26px;margin-top:40px;flex-wrap:wrap;animation:heroUp .8s .32s var(--ease) both}
 .hero-badges .b{font-size:14px;color:rgba(255,255,255,.72);padding-left:14px;border-left:2px solid transparent;border-image:var(--grad) 1}
 .hero-badges .b b{background:linear-gradient(120deg,#7db4ff,#4fe8bd);-webkit-background-clip:text;background-clip:text;color:transparent;font-size:24px;display:block;font-weight:800}
@@ -197,8 +197,8 @@ section{padding:84px 0;position:relative}
 .about-grid .about-img:hover img{transform:scale(1.04)}
 .feature-list{list-style:none;display:grid;gap:14px}
 .feature-list li{display:flex;gap:12px;align-items:flex-start}
-.feature-list .ic{flex:none;width:32px;height:32px;border-radius:9px;background:var(--grad);color:#fff;display:grid;place-items:center;font-size:15px;margin-top:2px;padding:6px;box-shadow:0 5px 14px rgba(22,99,242,.25)}
-.feature-list .ic img{width:100%;height:100%;object-fit:contain;filter:brightness(0) invert(1)}
+.feature-list .ic{flex:none;width:32px;height:32px;border-radius:50%;background:var(--grad);color:#fff;display:grid;place-items:center;font-size:15px;margin-top:2px;padding:3px;box-shadow:0 5px 14px rgba(22,99,242,.25)}
+.feature-list .ic img{width:100%;height:100%;object-fit:cover;border-radius:50%;background:#fff}
 .timeline{position:relative;padding-left:26px;border-left:2px solid var(--line)}
 .timeline .ev{position:relative;margin-bottom:24px;transition:transform .25s var(--ease)}
 .timeline .ev:hover{transform:translateX(4px)}
@@ -233,8 +233,8 @@ section{padding:84px 0;position:relative}
 
 /* ============ Floating buttons ============ */
 .float{position:fixed;right:22px;bottom:24px;z-index:60;display:flex;flex-direction:column;gap:12px}
-.float a{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-size:22px;color:#fff;box-shadow:var(--shadow-h);transition:all .25s var(--ease);position:relative;padding:12px}
-.float a img{width:100%;height:100%;object-fit:contain;filter:brightness(0) invert(1)}
+.float a{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-size:22px;color:#fff;box-shadow:var(--shadow-h);transition:all .25s var(--ease);position:relative;padding:4px}
+.float a img{width:100%;height:100%;object-fit:cover;border-radius:50%;background:#fff}
 .float a:hover{transform:scale(1.1) translateY(-2px)}
 .float .f-qq{background:linear-gradient(135deg,#1663f2,#38d6ff)}
 .float .f-tel{background:linear-gradient(135deg,#00c389,#4fe8bd)}
